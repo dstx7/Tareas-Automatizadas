@@ -117,7 +117,6 @@ def iniciar_vigilancia():
 def detener_vigilancia():
     observador.stop()
     observador.join()
-    ventana.quit()
 
 ventana.deiconify()
 ventana.title("Vigilancia de carpeta ")
